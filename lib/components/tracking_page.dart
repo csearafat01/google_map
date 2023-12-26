@@ -71,7 +71,7 @@ class _LocationTrackingPageState extends State<LocationTrackingPage> {
     if (currentLocation != null) {
       polylines.add(Polyline(
         polylineId: const PolylineId("poly-line-1"),
-        color: Colors.red,
+        color: Colors.blueAccent,
         width: 4,
         visible: true,
         patterns: const [
